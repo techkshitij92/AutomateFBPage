@@ -1,6 +1,0 @@
-client_id="bjRTT5t7prGJNS9THs76WA"
-client_secret="ImsZ5Kpw12cpPcMJ6PEfQORgfrNT7A"
-password="reddit@321."
-user_agent="Scrape by u/useless_inspector"
-username="useless_inspector"
-redirect_uri="http://localhost:8080"
