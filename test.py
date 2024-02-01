@@ -1,12 +1,12 @@
 import praw
-import cred
+import creds
 reddit = praw.Reddit(
-    client_id = cred.client_id,
-    client_secret = cred.client_secret,
-    password = cred.password,
-    user_agent = cred.user_agent,
-    username = cred.username,
-    redirect_uri = cred.redirect_uri,
+    client_id = credss.client_id,
+    client_secret = creds.client_secret,
+    password = creds.password,
+    user_agent = creds.user_agent,
+    username = creds.username,
+    redirect_uri = creds.redirect_uri,
 )
 print(reddit.auth.url(scopes=["identity"], state="...", duration="permanent"))
 print(reddit.user.me())
